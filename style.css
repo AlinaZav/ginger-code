@@ -1,0 +1,48 @@
+div, p, button {
+	box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+h2, p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+.nav, .logo, a {
+    font-size: 15px;
+    color: black;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+ins{
+    letter-spacing: 3px;
+}
+.sing{
+    font-size: 13px;
+    text-decoration: none;
+    color: #46474E;
+}
+.btn{
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    width: 247px;
+    height: 54px;
+    border-radius: 5px;
+}
+.bt{
+    width: 112px;
+    height: 40px;
+}
