@@ -33,21 +33,27 @@ p{
     font-size: 15px;
     color: black;
 }
-.nav{
+.burger{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: baseline;
     margin-bottom: 86.21px;
 }
 .basis{
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 .img{
     width: 676px;
     height: 675px;
 }
 .offer{
-    padding-bottom: 340px;
+    margin-top: 317px;
+    padding-bottom: 320px;
+}
+.shelf{
+    line-height: 62.4px;
 }
 ins{
     letter-spacing: 3px;
@@ -72,7 +78,7 @@ ins{
     width: 112px;
     height: 40px;
 }
-.block1{
+.block1, .bl1{
     display: inline-flexbox;
     box-sizing: border-box;
     width: 1264px;
@@ -87,7 +93,10 @@ ins{
     margin-bottom: 67px;
 }
 
-.block2{
+.stat{
+    padding-top: 65px;
+}
+.block2, .bl2{
     display: inline-flexbox;
     box-sizing: border-box;
     width: 620px;
@@ -96,7 +105,7 @@ ins{
     text-align: center;
     margin-top: 24.39px;
 }
-.block3{
+.block3, .bl3{
     display: inline-flexbox;
     box-sizing: border-box;
     width: 620px;
@@ -111,4 +120,21 @@ ins{
     justify-content: center;
 }
 
+.reviews{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 128px;
+    margin-bottom: 336px;
+}
+.members{
+    font-size: 17px;
+    line-height: 30.6px;
+    margin-right: 58.4px;
+}
+.meet{
+    text-align: center;
+}
+.tree{
+}
 
